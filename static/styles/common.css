@@ -1,0 +1,137 @@
+
+/* 主颜色 */
+.main-color1{
+  background-color: #ff787b;
+}
+.main-color2{
+  background-color: #3aaaff;
+}
+.main-color3{
+  background-color: #03c461;
+}
+.deal-bg-color{
+  background-color: #78c5ff;
+}
+
+.tab-active-color {
+  color: #ff787b;
+}
+.copy-color{
+  color: #3aaaff;
+}
+
+/* 副颜色 */
+.assist-color1{
+  background-color: #ffebeb;
+}
+.assist-color2{
+  background-color: #e2f2ff;
+}
+.assist-color3{
+  background-color: #f2f2f2;
+}
+.line-color{
+  background-color: #d9d9d9;
+}
+.alter-line-color{
+  color: #ebebeb;
+}
+.normal-border-color{
+  border-color: #ebebeb;
+}
+
+.normal-border{
+  border: 1px solid #ebebeb;
+}
+.deal-border{
+  border: 1px solid #3aaaff;
+}
+
+.main-bg{
+  background-color: #fff;
+}
+
+/* 文字颜色 */
+.main-text-color1{
+  color: #000;
+}
+.main-text-color2{
+  color: #999;
+}
+.table-text-color{
+  color: #333;
+}
+.white-color{
+  color: #fff;
+}
+
+.rise-color{
+  color:#ff464b;
+}
+.drop-color{
+  color: #03c461;
+}
+.rise-bg-color{
+  background-color: #ff464b;
+}
+.drop-bg-color{
+  background-color: #03c461;
+}
+
+.font40{
+  font-size: 21px;
+}
+.font32{
+  font-size: 17px;
+}
+.font28{
+  font-size: 15px;
+}
+.font24{
+  font-size: 13px;
+}
+.font20{
+  font-size: 11px;
+}
+
+/* 间距 */
+.normal-margin{
+  margin-bottom: 10px;
+}
+.normal-margin-top{
+  margin-top: 10px;
+}
+/* 内间距 */
+.normal-padding{
+  padding: 10px;
+}
+.has-header{
+  position: absolute;
+  top: 44px;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.hidden{
+  visibility: hidden;
+}
+/* 修改mint-ui switch 的默认样式 */
+.content-body .mint-switch-input:checked + .mint-switch-core{
+  border-color: #ff787b;
+  background-color: #ff787b;
+}
+.content-body .mint-switch-core{
+  width: 40px;
+  height: 22px;
+}
+.content-body .mint-switch-core::after{
+  width: 19px;
+  height: 19px;
+}
+.content-body .mint-switch-core::before{
+  width: 40px;
+  height: 22px;
+}
+
+
